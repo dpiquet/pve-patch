@@ -24,7 +24,7 @@ echo "patching Proxmox VE"
 -               if (data.status !== 'Active') {
 +               if (false && data.status !== 'Active') {
                     Ext.Msg.show({
-                        title: 'No valid subscription',
+                        title: gettext('No valid subscription'),
                         icon: Ext.Msg.WARNING,
 EOF
 
